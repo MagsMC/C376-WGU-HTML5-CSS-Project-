@@ -1,0 +1,271 @@
+
+body {
+      font-family: verdana, sans-serif;
+      margin: 0 auto;
+      width: 950px;
+              
+}
+
+html {
+    background: url(images/graybackground.jpg) no-repeat center fixed;
+    background-size: cover;
+    
+}
+
+fixedImage {
+    bottom: 15px;
+    position: fixed;
+    right: 15px;
+    
+}
+h1 {
+    color: #f00;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+}
+
+/* ===== main menu ===== */
+
+header {
+    margin: 0 auto;
+    position: relative;
+    
+    
+
+}
+
+nav {
+    font-family: sans-serif;
+    height: 40px;
+    left: 0;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    right: 0;
+    top: -42px;
+    width: 100%;
+        
+}
+
+nav ul {
+    background-color: black;
+    border: 5px;
+    border-bottom-color: orange;
+    border-bottom-style: solid;
+    border-top-color: orange;
+    border-top-style: solid;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+        
+}
+
+nav li {
+    float: left;
+    
+}
+
+nav li a {
+    color: white;
+    display: block;
+    font-weight: 400;
+    padding: 5px 25px;
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+nav li a:hover:not(.active) {
+    background-color: coral;
+    color: white;
+    transition: none;
+}
+
+nav .active {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+container {
+    color: black;
+    margin: 25px 15%;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+       
+}
+
+/* ===== Content ===== */
+
+Content {
+    font-family: courier, monospace;
+    padding: 15px;
+    
+}
+
+.content {
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 8px;
+    text-align: left;
+           
+}
+
+.wrap {
+    float: right;
+
+}
+
+section {
+    background-color: black;
+    border-color: orange;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -18px;
+    width: 685px;
+        
+}
+
+
+aside {
+    
+    background-color: black;
+    border-color: orange;
+    border-radius: 10px;
+    border-style: solid;
+    color: red;
+    float: left;
+    height: auto;
+    margin: 0;
+    margin-left: 105%;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 32%;
+    
+}
+
+aside p {
+    color:white;
+    font-size: 13px;
+    text-align: center;
+        
+}
+
+table { 
+    background-color: transparent;
+    border: 1px solid;
+    
+}
+
+tr {
+    border: 1px solid transparent;
+    float: left;
+    margin-left: 10%;
+    position: relative;
+    
+}
+
+ol {
+    list-style: circle;
+}
+
+td{
+    color: red;
+    font-family: sans-serif;
+    font-size:12px;
+    text-align: left; 
+   
+}
+
+th {
+    column-span: all;
+    font-size: 13px;
+    text-align: center;
+        
+}
+
+column {
+    color: transparent;
+    column-count: 2;
+}
+
+
+/* Hyperlinks */
+
+a:link {
+    color: white;
+}
+
+
+a:visited {
+    color: red;
+}
+
+
+a:hover {
+    color: white;
+}
+
+
+a:active {
+    color: blue;
+}
+
+/* ===== miscellaneous styles ===== */
+
+.clear { 
+    clear: both 
+}
+
+.align-left {
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* ===== footer ===== */
+
+footer {
+   
+    background-color: transparent;
+    height: 50px;
+    margin-top: 50px;
+    position: absolute;
+    width: 75%;
+    z-index: 10;
+            
+}
+
+footer p {
+    color: #fff;
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    
+}
+
+footer a {
+    color: #1b9d95;
+    text-decoration: none;
+}
+
+
+
